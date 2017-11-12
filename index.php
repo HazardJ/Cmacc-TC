@@ -2,7 +2,7 @@
 
 DEFINE('ROOT' ,dirname(__FILE__) ); // Root directory of site
 
-DEFINE('URLFORREPO', 'https://github.com/CommonAccord/cmacc-host');	// The repo home. Change to your own repo home. This links directly to your repo file. 
+DEFINE('URLFORREPO', 'https://github.com/HazardJ/Cmacc-TC');	// The repo home. Change to your own repo home. This links directly to your repo file. 
 
 DEFINE('LANDING_MD', 'Landing.md');	// The website home
 
