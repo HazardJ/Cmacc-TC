@@ -104,7 +104,7 @@ my %seen; my @arr = $output=~/\{([^}]+)\}/g;
 
 # To make a new Xnum, with a hyperlink to the section:
 
-print "$_=<a href='#$_' class='xref'></a>\n" foreach @arr;
+print "$_.=[G/xx/$_/0.md]\n\n$_.Xnum={.Xnum}.<a href='#$_.Sec' class='xref'></a>\n" foreach @arr;
 
 # To make a new Param, with a hyperlink to the definition:
 
